@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Moksleivių informacinė sistema</title>
+</head>
+<body>
+  <h1>Moksleivių informacinė sistema</h1>
+  <form id="searchForm">
+    <input type="text" name="firstname" placeholder="Vardas">
+    <input type="text" name="lastName" placeholder="Pavardė">
+    <input type="text" name="class" placeholder="Klasė">
+    <button type="submit">Ieškoti</button>
+  </form>
+  <a href="#" id="sortLastname">Rikiuoti pagal pavardę</a><br>
+  <a href="#" id="calculateAverage">Apskaičiuoti vidurkius</a>
+  <div class="students" id="studentsContainer">
+    <!-- Moksleivių kortelės bus čia -->
+  </div>
+  <script src="/main.js"></script>
+</body>
+</html>
